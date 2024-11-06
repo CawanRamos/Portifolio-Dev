@@ -1,0 +1,35 @@
+ #jobs{
+  align-items: center;
+  text-align: center;
+
+  span{
+    margin-bottom: 8px;
+  }
+  h2{
+    margin-bottom: 56px;
+  }
+ }
+
+#projects {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr))
+}
+
+#project {
+  
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: left;
+
+  h3 {
+    margin-block: 24px 8px;
+  }
+
+
+  img {
+    border-radius: 8px;
+    width: 330px;
+  }
+}

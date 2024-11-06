@@ -1,0 +1,46 @@
+header{
+  background-color: var(--gray-400);
+  background-image: url(/assets/images/Background_Intro.png);
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+
+  .main-img {
+    margin-block: 124px 64px;
+  }
+
+  p{
+    max-width: 680px;
+    margin: 20px auto 0 auto;
+    color: var(--gray-400);
+    
+  }
+
+  #technologies{
+    align-items: center;
+    margin-block: 80px 98px;
+  }
+
+  .tag {
+    background-color: var(--gray-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    gap: 18px;
+  }
+
+  .tag img {
+    width: 24px;
+  }
+
+  .arrow{
+    margin-bottom: 57px;
+  }
+
+  #technologies{
+   gap: 16px; 
+  }
+}
