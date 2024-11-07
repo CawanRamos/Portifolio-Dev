@@ -1,0 +1,39 @@
+#services {
+  margin: auto;
+  padding: 88px 120px 120px;
+  background-color: var(--gray-100);
+  align-items: center;
+  text-align: center;
+  
+  h3 {
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    margin-bottom: 56px;
+  }
+
+  .service {
+    width: 1366px;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    text-align: left;
+
+    div{
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    p {
+      margin-bottom: 8px;
+    }
+
+  }
+  
+}
+
+
