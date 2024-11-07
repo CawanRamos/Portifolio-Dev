@@ -9,6 +9,20 @@
 .flex {
   display: flex;
 }
+
+.flex-direction{
+flex-direction: row;
+}
+
+.social-padding{
+  gap: 12px;
+}
+
+.social-content{
+  align-items: center;
+  justify-content: center;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
   }

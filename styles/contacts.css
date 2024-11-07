@@ -1,6 +1,10 @@
 #contacts {
+  display: flex;
+  flex-direction: column;
   background-image: url(/assets/images/Background_Contacts.png);
   text-align: center;
+  align-items: center;
+  justify-content: center;
   background-position: center;
   background-size: cover;
   padding: 128px 120px 200px;
@@ -12,5 +16,31 @@
   h2 {
     margin-bottom: 8px;
   }
+
+  #redes-sociais {
+    display: flex;
+    margin-top: 48px;
+    gap: 16px;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
   
+  }
+
+  #social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    border: 1px solid var(--gray-300);
+    padding: 20px;
+  }
+  
+  #social:hover{
+    cursor: pointer;
+    border: 1px solid var(--blue);
+  }
 }

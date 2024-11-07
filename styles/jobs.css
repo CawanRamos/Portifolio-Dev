@@ -17,7 +17,7 @@
 }
 
 #project {
-  
+  border: 1px solid var(--gray-300);
   background-color: var(--gray-300);
   border-radius: 12px;
   padding: 12px;
@@ -32,4 +32,14 @@
     border-radius: 8px;
     width: 330px;
   }
+
+
+  
+}
+
+
+#project:hover {
+  cursor: pointer;
+  border: 1.5px solid var(--gray-400);
+
 }
